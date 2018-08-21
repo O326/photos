@@ -50,7 +50,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../docs'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: 'https://o326.github.io/',
+    assetsPublicPath: 'https://o326.github.io/photos',
 
     /**
      * Source Maps

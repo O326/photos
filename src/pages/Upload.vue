@@ -1,5 +1,5 @@
 <template>
-  <div class="upload-comp">
+  <div class="upload-page">
     <img :src="logo" :alt="title" class="logo">
     <h1>{{ title }}</h1>
     <div class="upload-box">
@@ -106,7 +106,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="less" scoped>
 .logo {
   width: 100px;
   height: 100px;
@@ -149,21 +149,22 @@ export default {
   position: relative;
   height: 200px;
   display: inline-block;
-}
-.preview-img:hover::before {
-  content: '点击复制链接';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .5;
-  background: #000;
-  color: #fff;
-  text-align: center;
-  line-height: 200px;
-  transition: all .5s ease-in;
-  cursor: pointer;
+
+  &:hover::before {
+    content: '点击复制链接';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 200px;
+    transition: all .5s ease-in;
+    cursor: pointer;
+  }
 }
 </style>

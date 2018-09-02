@@ -2,7 +2,7 @@
   <div class="photo-swiper">
     <swiper :options="swiperOption">
       <swiper-slide v-for="(img, index) in item.imgs" :key="index">
-        <img :src="img" :alt="item.title" class="swiper-img">
+        <img :src="item.imgHost + img" :alt="item.title" class="swiper-img">
       </swiper-slide>
       <div class="swiper-pagination swiper-pagination-white" slot="pagination"></div>
       <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>

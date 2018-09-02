@@ -33,7 +33,8 @@ export default {
           title: i.title,
           type: i.type,
           content: i.content,
-          imgs: JSON.parse(i.imgs_json),
+          imgs: JSON.parse(i.img_keys),
+          imgHost: i.img_host,
           location: i.location
         }
       })

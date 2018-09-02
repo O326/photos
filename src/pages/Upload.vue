@@ -31,7 +31,7 @@ const COLOR = {
   BLUE: '#1BA7DE',
   RED: '#FF0000'
 }
-const CDN_DOMAIN = 'http://pdtqbf99x.bkt.clouddn.com/'
+const CDN_DOMAIN = '//pdtqbf99x.bkt.clouddn.com/'
 const TOKEN_URL = '//webhostapi.000webhostapp.com/qiniu-api/upload-tokens.php'
 
 export default {
